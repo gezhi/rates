@@ -1,0 +1,122 @@
+@charset "UTF-8";
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:middle;
+    background:transparent;
+}
+body {
+    line-height:1;
+    font:12px/1.5 tahoma,arial,\5b8b\4f53;
+    color: #000;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+ol,ul,li{
+    list-style:none;
+}
+button{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+    outline: none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 600;
+}
+input, select,textarea{
+    vertical-align:middle;
+    outline: none;
+}
+em,address{
+    font-style: normal;
+}
+.disn{
+	display: none;
+}
+.pa{
+	position: absolute;
+}
+.curp{
+	cursor: pointer;
+}
+.coverrates{
+	position: relative;
+}
+.rates {
+	margin-top:28px;
+}
+.rates-note {
+	top:0;
+	left:152px;
+}
+.rates-note span {
+	display:none;
+	height:20px;
+	padding: 0 12px;
+	font-size:14px;
+	line-height:20px;
+	background:#fffdf0;
+	border:1px #e8d1ae solid;
+	color:#f19000;
+}
+.rates-note .disb {
+	display:inline-block;
+}
+.rates-note .low-score {
+	color:#9b9b9b;
+}
+.rates-note .arrow-left {
+	top:1px;
+	left:-4px;
+	color:#fffdf0;
+	font-size:14px;
+	z-index:2;
+}
+.rates-note .arrow-bigger {
+	top:1px;
+	left:-6px;
+	color:#e8d1ae;
+	font-size:14px;
+}
+.rates strong{
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    background: url(../images/stars.png) no-repeat -42px 0;
+}
+.rates .lowRates{
+    background-position-x: -21px;
+}
+.rates .highRates{
+    background-position-x: 0;
+}
