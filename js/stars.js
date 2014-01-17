@@ -8,6 +8,7 @@
     $.fn.starsRates = function(options){
         var stars = $(this).find('strong');
         var stars_notes = $(this).find('span');
+        //传入高分低分的class名
         var settings=$.extend({
             lowRates:'lowRates',
             highRates:'highRates'
